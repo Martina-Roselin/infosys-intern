@@ -1,0 +1,24 @@
+ /* chatbot.css */
+
+/* This targets the chat widget itself */
+df-messenger {
+  /* This changes the main color of the header and send button */
+  --df-messenger-brand-color: #3f51b5; 
+  
+  /* This changes the text color */
+  --df-messenger-font-color: #333333;
+
+  /* This changes the background of the chat window */
+  --df-messenger-chat-background-color: #ffffff;
+  
+  /* This changes the color of the bot's chat bubbles */
+  --df-messenger-bot-message: #f0f4f7;
+  
+  /* This changes the color of the user's chat bubbles */
+  --df-messenger-user-message: #e9eaf6;
+  /* This makes the button's circle transparent */
+  --df-messenger-chat-button-background-color: transparent;
+  
+  /* This removes the drop-shadow from the button */
+  --df-messenger-chat-button-box-shadow: none;
+}
